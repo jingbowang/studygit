@@ -1,0 +1,413 @@
+table
+{
+ background: url("background.png");
+ backgroud-repeat:no-repeat;
+ border          :0;
+ cellspacing     :0;
+ cellpadding     :0;
+ padding-left    :18px;
+ padding-top     :20px;
+}
+
+input#monitor
+{
+ background: url("monitor.png");
+ position  :relative;
+ align:    center;
+ border:0px;
+ width:428px;
+ height:65px;
+ font-size:60px ;
+}
+
+input#seven
+{
+background: url("sevena.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+
+}
+input#seven:active
+{
+background : url("sevenb.png");
+}
+
+input#eight
+{
+background: url("eighta.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#eight:active
+{
+background : url("eightb.png");
+}
+
+input#nine
+{
+background: url("ninea.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#nine:active
+{
+background : url("nineb.png");
+}
+
+input#four
+{
+background: url("foura.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#four:active
+{
+background : url("fourb.png");
+}
+
+input#five
+{
+background: url("fivea.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#five:active
+{
+background : url("fiveb.png");
+}
+
+input#six
+{
+background: url("sixa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#six:active
+{
+background : url("sixb.png");
+}
+
+input#one
+{
+background: url("onea.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#one:active
+{
+background : url("oneb.png");
+}
+
+input#two
+{
+background: url("twoa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#two:active
+{
+background : url("twob.png");
+}
+
+input#three
+{
+background: url("threea.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#three:active
+{
+background : url("threeb.png");
+}
+
+input#mc
+{
+  background: url("mca.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#mc:active
+{
+ background: url("mcb.png");
+}
+
+input#sqrt
+{
+  background: url("sqrta.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#sqrt:active
+{
+background : url("sqrtb.png");
+}
+
+input#mr
+{
+  background: url("mra.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#mr:active
+{
+background : url("mrb.png");
+}
+
+
+input#multiply
+{
+  background: url("multiplya.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#multiply:active
+{
+background : url("multiplyb.png");
+}
+input#percent
+{
+  background: url("percenta.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#percent:active
+{
+background : url("percentb.png");
+}
+
+input#ms
+{
+  background: url("msa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#ms:active
+{
+background : url("msb.png");
+}
+
+input#minus
+{
+  background: url("minusa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#minus:active
+{
+background : url("minusb.png");
+}
+input#reciproc
+{
+  background: url("reciproca.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#reciproc:active
+{
+background : url("reciprocb.png");
+}
+
+input#mj
+{
+  background: url("mja.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#mj:active
+{
+background : url("mjb.png");
+}
+
+input#zero
+{
+  background: url("zeroa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#zero:active
+{
+background : url("zerob.png");
+}
+input#negative
+{
+  background: url("negativea.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#negative:active
+{
+background : url("negativeb.png");
+}
+
+input#point
+{
+  background: url("pointa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#point:active
+{
+background : url("pointb.png");
+}
+
+input#and
+{
+  background: url("anda.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+
+input#and:active
+{
+background : url("andb.png");
+}
+input#equal
+{
+  background: url("equala.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+
+input#equal:active
+{
+background : url("equalb.png");
+}
+
+input#ce
+{
+  background: url("cea.png");
+position:relative;
+border:0px;
+width:138px;
+height:50px;
+}
+
+input#ce:active
+{
+background : url("ceb.png");
+}
+
+input#c
+{
+  background: url("ca.png");
+position:relative;
+border:0px;
+width:138px;
+height:50px;
+}
+
+input#c:active
+{
+background : url("cb.png");
+}
+
+input#back
+{
+  background: url("backa.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#back:active
+{
+background : url("backb.png");
+}
+
+
+input#divid
+{
+  background: url("divida.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#divid:active
+{
+background : url("dividb.png");
+}
+
+input#m-
+{
+  background: url("m-a.png");
+position:relative;
+border:0px;
+width:67px;
+height:50px;
+}
+
+input#m-:active
+{
+background : url("m-b.png");
+}

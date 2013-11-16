@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+     <head>
+           <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+           <title>Calculator</title>
+           <link rel="stylesheet" type="text/css" href="stylesheet4.css">
+           <script src="myScript5.js"></script>
+     </head> 
+     <body onkeydown="keyboard_input()">
+     <form name="calculator">
+     <table>
+      <tbody>
+       <tr>
+        <td colspan="6" ><input type="text" id="monitor" name="monitor" onChange="CheckNumber(this.value)" value="0."></td>
+       </tr>
+      
+       <tr>
+        <td><input type="button" name="mc"   id="mc" onClick="MemoryClear(); return false;"/></td>
+        <td colspan="2"><input type="button" name="ce" id="ce"  onClick="CECalc(); return false;"  /></td>
+        <td colspan="2"><input type="button" name="c"  id="c"  onClick="ClearCalc(); return false;"/></td>
+        <td><input type="button" name="back" id="back" onClick="Backspace(document.calculator.monitor.value); return false;"></td>
+       </tr>
+       <tr>
+        <td><input type="button" name="mr" id="mr" onClick="MemoryRecall(Memory); return false;" ></td>
+        <td><input type="button" id="seven" name="s7" onClick="CheckNumber('7'); return false;" ></td>
+        <td><input type="buton" id="eight"  name="s8" onClick="CheckNumber('8'); return false;"></td>
+        <td><input type="button" id="nine"  name="s9" onClick="CheckNumber('9'); return false;"></td>
+        <td><input type="button" name="divid" id="divid"  onClick="DivButton(1); return false;"  ></td>
+        <td><input type="button" name="sqrt"    id="sqrt"  onClick="SqrtButton(); return false;"></td>
+       </tr>
+       <tr>
+        <td><input type="button" name="ms"   id="ms" onClick="MemoryAdd(document.calculator.monitor.value); return false;"></td>
+        <td><input type="button" name="4"  id="four" onClick="CheckNumber('4'); return false;" ></td>
+        <td><input type="button" id="five" name="5"  onClick="CheckNumber('5'); return false;"></td>
+        <td><input type="button" id="six" name="6"   onClick="CheckNumber('6'); return false;"></td>
+        <td><input type="button" name="multiply"   id="multiply"  onClick="MultButton(1); return false;"></td>
+        <td><input type="button" name="percent"   id="percent" onClick="PercentButton(1); return false;"></td>
+       </tr>
+       <tr>
+        <td><input type="button" name="m+"  id="mj" onClick="MemoryAdd(document.calculator.monitor.value); return false;"></td>
+        <td><input type="button" id="one" name="one"   onClick="CheckNumber('1'); return false;" ></td>
+        <td><input type="button" id="two" name="two"   onClick="CheckNumber('2'); return false;" ></td>
+        <td><input type="button" id="three" name="three"   onClick="CheckNumber('3'); return false;"  ></td>
+        <td><input type="button" name="minus"  onClick="SubButton(1); return false;" id="minus"></td>
+        <td><input type="button" name="reciproc"  id="reciproc" onClick="RecipButton(); return false;"></td>
+       </tr>
+       <tr>
+        <td><input type="button" id="m-" onClick="MemorySubtract(document.calculator.monitor.value); return false;"></td>
+        <td><input type="button" name="0"   id="zero" onClick="CheckNumber('0'); return false;"></td>
+        <td><input type="button" name="negative"   id="negative"  onClick="NegateButton(); return false;"</td>
+        <td><input type="button" name="point"   id="point"  onClick="CheckNumber('.'); return false;"></td>
+        <td><input type="button" name="and"   id="and"  onClick="AddButton(1); return false;"></td>
+        <td><input type="button" name="equal"  id="equal"  onClick="EqualButton(); return false;"></td>
+       </tr>
+      </tbody>
+      </table>
+      </form>
+      </body>
+     </html>
